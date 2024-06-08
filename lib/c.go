@@ -8,6 +8,6 @@ type C struct {
 }
 
 // gomodules-dのv1.2で追加された新しい関数を呼び出す
-func (C) Method() {
+func (C) Method2() {
 	d.D1_2()
 }
